@@ -10,7 +10,17 @@
 </head>
 
 <body>
-    <h1><span class="styling ">TODO</span> LIST </h1>
+    
+    <h1><span class="styling ">TODO</span> LIST FOR TODAY </h1>
+    <div class= "jam ">
+	<div id="hasil "></div>
+ 
+	<script>
+		var tanggal = new Date();
+ 
+		document.getElementById("hasil ").innerHTML = tanggal;
+    </script>
+</div>
     <div class="input_div ">
         <input class="input " type="text " placeholder="What Do You Want To Do ... ">
         <button class="addButton "><i class="fas fa-plus "></i></button>
@@ -23,6 +33,7 @@
         </div> -->
     </div>
     <script type="text/javascript " src="app.js "></script>
-</body>
+
+    </body>
 
 </html>
